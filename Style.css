@@ -24,7 +24,7 @@
 
 #section2>.row{
     box-sizing: border-box;
-    padding: 4%;
+    padding:2% 4%;
 }
 #section2 img{
     height: 100%;
@@ -35,7 +35,7 @@
 
 #section3{
 box-sizing: border-box;
-padding: 4%;
+padding:2%  4%;
 
 }
 #section3 p{
@@ -52,7 +52,7 @@ padding: 4%;
 
 #section4{
     box-sizing: border-box;
-    padding: 4%;
+    padding:2% 4%;
     display: flex;
     justify-content: space-evenly;
     font-weight: 550;
@@ -90,7 +90,7 @@ flex-wrap: wrap;
 
 #section5{
     box-sizing: border-box;
-    padding: 4%;
+    padding:2% 4%;
     font-weight:600;
 
     font-family: 'Open sans';
@@ -166,7 +166,7 @@ flex-wrap: wrap;
 #section10{
     overflow-x: hidden;
     box-sizing: border-box;
-padding: 9%;
+padding:3% 9%;
 }
 #section10 img{
     width: 100%;
@@ -199,7 +199,7 @@ padding: 9%;
 /* >>>>>>>>>>>>>>>>>>> */
 #section11{
     box-sizing: border-box;
-    padding: 8%;
+    padding:3% 8%;
 }
 #section11 span{
     font-weight: 700;
