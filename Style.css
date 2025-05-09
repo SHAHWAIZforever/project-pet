@@ -1,0 +1,322 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    background:
+     #0074D9;
+     box-sizing: border-box;
+     padding: 5%;
+     text-align: center;
+     color: white;
+}
+#section1 h1{
+    font-weight: 700;
+}
+
+/* >>>>>>>>>>>>>>>>> */
+
+
+#section2>.row{
+    box-sizing: border-box;
+    padding: 4%;
+}
+#section2 img{
+    height: 100%;
+    width: 100%;
+}
+
+/* >>>>>>>>>>>>>>>?>>>>> */
+
+#section3{
+box-sizing: border-box;
+padding: 4%;
+
+}
+#section3 p{
+    font-weight:590;
+    font-family: 'Open sans';
+
+}
+#section3 h2>a{
+    color: black;
+    font-weight:700;
+}
+
+/* >>>>>>>>>>>>>>> */
+
+#section4{
+    box-sizing: border-box;
+    padding: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 550;
+    align-items:baseline;
+font-family:'Open sans';
+font-style: italic;
+flex-wrap: wrap;
+}
+.in {
+    width: 300px; /* You can adjust width as needed */
+    text-align:left;
+    margin: auto;
+
+}
+
+.img-container {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Makes it square */
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: contain; /* Keeps image nicely cropped and scaled */
+}
+
+.in p {
+    margin-top: 10px;
+    height: 120px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>> */
+
+#section5{
+    box-sizing: border-box;
+    padding: 4%;
+    font-weight:600;
+
+    font-family: 'Open sans';
+}
+#section5 p{
+    font-weight:590;
+
+}
+
+#section3>p>span{
+  
+    font-weight: 800;
+}
+
+/* >>>>>>>> */
+
+.section6>.in>h4{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-style: normal;
+   
+}
+
+/* >>>>>>>>>>>>>>>>>>>> */
+
+#section7{
+    box-sizing: border-box;
+padding: 1% 4%;
+font-weight: 550;
+align-items:baseline;
+font-family:'Open sans';
+font-style: italic;
+flex-wrap: wrap;   
+
+}
+#section7 span{
+    font-weight: 700;
+}
+
+/* >>>>>>>>>>>>> */
+
+#section8 {
+    display: flex;
+    box-sizing: border-box;
+    padding: 1% 4%;
+    font-family: "Open Sans", sans-serif;
+    justify-content:center;
+    font-style: italic;
+    flex-wrap: wrap; /* Default for smaller screens */
+    gap: 30px;
+}
+#section8 .in8{
+    background: #F8F6FB;
+    padding: 2%;
+    border-radius:15px ;
+    width: 300px;
+}
+
+/* >>>>>>>>>>>>>> */
+
+#section9{
+    box-sizing: border-box;
+    padding:0.4% 4%;
+}
+#section9 h1{
+    font-weight: 800;
+}
+
+/* >>>>>>>>>>>>. */
+
+#section10{
+    overflow-x: hidden;
+    box-sizing: border-box;
+padding: 9%;
+}
+#section10 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* >>>>>>>>. */
+
+#span2{
+    font-weight: 500 !important;
+    text-decoration: underline;
+}
+
+#span3{
+    font-weight: 500 !important;
+    font-style: italic !important;
+}
+
+#span4{
+    font-weight: 500 !important;
+}
+#span5{
+    font-weight: 700 !important;
+}
+#section3 hr{
+    border: 1.4px solid grey;
+    border-radius: 5px;
+}
+/* >>>>>>>>>>>>>>>>>>> */
+#section11{
+    box-sizing: border-box;
+    padding: 8%;
+}
+#section11 span{
+    font-weight: 700;
+    
+}
+
+#section11>section{
+    border: 3px solid black;
+    border-style: dashed;
+    box-sizing: border-box;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+/* >>>>>>>>>>>>> */
+.section12{
+    box-sizing: border-box;
+    padding: 1% 8% !important;
+}
+
+/* >>>>>>>>>>>> */
+
+.section10small{
+    padding:1% 12% !important;
+}
+
+/* >>>>>>>>>>>>>>>>> */
+
+#section13{
+    box-sizing: border-box;
+    padding: 1% 4%;
+   
+}
+#section13 div{
+    box-sizing: border-box;
+    padding: 1% 4%;
+    background: #F8F6FB;
+}
+#section13 p{
+    margin: 2%;
+}
+
+/* >>>>>>>>>>>>>>>>>>> */
+
+#section14{
+    box-sizing: border-box;
+    padding: 1% 5%;
+}
+#section14 h1{
+    font-weight: 800;
+}
+#section14 div{
+    box-sizing: border-box;
+    padding: 1% 5%;
+    border: 3px solid #0074D9 ;
+    border-style: dashed;
+    border-radius: 10px;
+}
+#section14 button{
+    width: 100%;
+    background: #04B662;
+    padding: 2% 0%;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+
+/* >>>>>>>>>>>>>>>>> */
+
+
+#secmob2{
+    display: none;
+}
+#secmob1{
+   display: none;
+}
+#section01{
+    display:none;
+}
+@media(max-width:700px)
+{
+    
+#section01{
+    display: block;
+}
+#section0{
+    display: none;
+}
+   #secmob2 .in {
+        width: 150px ; 
+        height: 290px;/* You can adjust width as needed */
+        text-align:left;
+        margin: auto;
+    
+    }
+    #secmob2{
+        display: block;
+        display: flex;
+        width: 100%;
+    }
+    .mobnone{
+        display: none !important;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    #secmob1{
+        box-sizing: border-box;
+        padding: 2%;
+        display: grid;
+        place-items: center;
+        display: block;
+    } 
+    #secmob1 img{
+        height: 100%;
+        width: 100%;
+    }
+}
